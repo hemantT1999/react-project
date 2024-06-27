@@ -1,0 +1,33 @@
+/* src/components/CustomCalendar.css */
+.fc-dayGridDay-events {
+  background-color: #f0f0f0; /* Light gray background for event container */
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.fc-event {
+  background-color: #3f51b5; /* Darker blue background for events */
+  color: white;
+  border-radius: 4px;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.fc-day-today {
+  background-color: #ffeb3b; /* Highlight color */
+  border-radius: 50%; /* Rounded effect */
+  border: 2px solid #f57c00; /* Border for the rounded effect */
+  color: #000; /* Text color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold; /* Make the text bold */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.fc-day-today:hover {
+  background-color: #f57c00; /* Change background on hover */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+  color: white; /* Change text color on hover */
+}
