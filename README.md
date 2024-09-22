@@ -1,5 +1,5 @@
-React Admin Dashboard
-This admin dashboard is developed using React.js for a dynamic and interactive user interface, combined with HTML and CSS for structure and styling. JavaScript is utilized for adding functionality and handling user interactions, while API integration enables real-time data updates and management.
+React Admin Dashboard:
+MY admin dashboard is developed using React.js for a dynamic and interactive user interface, combined with HTML and CSS for structure and styling. JavaScript is utilized for adding functionality and handling user interactions, while API integration enables real-time data updates and management.
 
 Key features include:
 
